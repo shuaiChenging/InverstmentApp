@@ -30,7 +30,7 @@ export class HomePage {
   }
 
   private pushToDetail(i): void {
-    console.log(i);
+    this.navCtrl.push('HomeDetail');
   }
 
 }
